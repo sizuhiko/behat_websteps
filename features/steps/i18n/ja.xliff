@@ -1,0 +1,99 @@
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="global" source-language="en" target-language="ja" datatype="plaintext">
+    <header />
+    <body>
+      <trans-unit id="i-am-on-page">
+        <source>/^I'm on ([^']*)$/</source>
+        <target>/^"([^"]*)"ページを表示している$/</target>
+      </trans-unit>
+      <trans-unit id="i-click-on-link">
+        <source>/^I click on link '([^']*)'$/</source>
+        <target>/^"([^"]*)"リンクをクリックする$/</target>
+      </trans-unit>
+      <trans-unit id="i-click-on-link-within-selector">
+        <source>/^I click on link '([^']*)' within '([^']*)'$/</source>
+        <target>/^"([^"]*)"リンク\("([^"]*)"内にある\)をクリックする$/</target>
+      </trans-unit>
+      <trans-unit id="i-fill-in-field-with-value-in-form">
+        <source>/^I fill in '([^']*)' with '([^']*)' in form '([^']*)'$/</source>
+        <target>/^"([^"]*)"に"([^"]*)"と入力する\("([^"]*)"フォーム\)$/</target>
+      </trans-unit>
+      <trans-unit id="i-tick-checkbox-in-form">
+        <source>/^I tick checkbox '([^']*)' in form '([^']*)'$/</source>
+        <target>/^チェックボックス"([^"]*)"をチェックする\("([^"]*)"フォーム\)$/</target>
+      </trans-unit>
+      <trans-unit id="i-untick-checkbox-in-form">
+        <source>/^I untick checkbox '([^']*)' in form '([^']*)'$/</source>
+        <target>/^チェックボックス"([^"]*)"のチェックを解除する\("([^"]*)"フォーム\)$/</target>
+      </trans-unit>
+      <trans-unit id="i-select-value-in-field-in-form">
+        <source>/^I select '([^']*)' in '([^']*)' in form '([^']*)'$/</source>
+        <target>/^"([^"]*)"を"([^"]*)"リストから選択する\("([^"]*)"フォーム\)$/</target>
+      </trans-unit>
+      <trans-unit id="i-select-value-in-radio-in-form">
+        <source>/^I select '([^']*)' in radio '([^']*)' in form '([^']*)'$/</source>
+        <target>/^"([^"]*)"を"([^"]*)"ラジオから選択する\("([^"]*)"フォーム\)$/</target>
+      </trans-unit>
+      <trans-unit id="i-attach-the-file-to-field-in-form">
+        <source>/^I attach the file '([^']*)' to '([^']*)' in form '([^']*)'$/</source>
+        <target>/^"([^"]*)"を"([^"]*)"へ添付する\("([^"]*)"フォーム\)$/</target>
+      </trans-unit>
+      <trans-unit id="i-fill-in-following-in-form">
+        <source>/^I fill in following in form '([^']*)':$/</source>
+        <target>/^"([^"]*)"フォームを以下の内容で入力する$/</target>
+      </trans-unit>
+      <trans-unit id="i-submit-form">
+        <source>/^I submit form '([^']*)'$/</source>
+        <target>/^"([^"]*)"フォームを送信する$/</target>
+      </trans-unit>
+      <trans-unit id="i-should-see-needle">
+        <source>/^I should see '([^']*)'$/</source>
+        <target>/^"([^"]*)"と表示されていること$/</target>
+      </trans-unit>
+      <trans-unit id="i-should-see-needle-within-selector">
+        <source>/^I should see '([^']*)' within '([^']*)'$/</source>
+        <target>/^"([^"]*)"と"([^"]*)"内に表示されていること$/</target>
+      </trans-unit>
+      <trans-unit id="i-should-see-regexp">
+        <source>/^I should see \/([^\/]*)\/$/</source>
+        <target>/^\/([^\/]*)\/と表示されていること$/</target>
+      </trans-unit>
+      <trans-unit id="i-should-see-regexp-within-selector">
+        <source>/^I should see \/([^\/]*)\/ within '([^']*)'$/</source>
+        <target>/^\/([^\/]*)\/と"([^"]*)"内に表示されていること$/</target>
+      </trans-unit>
+      <trans-unit id="i-should-not-see-needle">
+        <source>/^I should not see '([^']*)'$/</source>
+        <target>/^"([^"]*)"と表示されないこと$/</target>
+      </trans-unit>
+      <trans-unit id="i-should-not-see-needle-within-selector">
+        <source>/^I should not see '([^']*)' within '([^']*)'$/</source>
+        <target>/^"([^"]*)"と"([^"]*)"内に表示されないこと$/</target>
+      </trans-unit>
+      <trans-unit id="i-should-not-see-regexp">
+        <source>/^I should not see \/([^\/]*)\/$/</source>
+        <target>/^\/([^\/]*)\/と表示されないこと$/</target>
+      </trans-unit>
+      <trans-unit id="i-should-not-see-regexp-within-selector">
+        <source>/^I should not see \/([^\/]*)\/ within '([^']*)'$/</source>
+        <target>/^\/([^\/]*)\/と"([^"]*)"内に表示されないこと$/</target>
+      </trans-unit>
+      <trans-unit id="the-field-in-form-should-contain-needle">
+        <source>/^the '([^']*)' field in form '([^']*)' should constain '([^']*)'$/</source>
+        <target>/^"([^"]*)"\("([^"]*)"フォーム\)の値が"([^"]*)"を含んでいること$/</target>
+      </trans-unit>
+      <trans-unit id="the-field-in-form-should-not-contain-needle">
+        <source>/^the '([^']*)' field in form '([^']*)' should not constain '([^']*)'$/</source>
+        <target>/^"([^"]*)"\("([^"]*)"フォーム\)の値が"([^"]*)"を含まないこと$/</target>
+      </trans-unit>
+      <trans-unit id="the-field-in-form-should-be-blank">
+        <source>/^the '([^']*)' field in form '([^']*)' should be blank$/</source>
+        <target>/^"([^"]*)"\("([^"]*)"フォーム\)の値が空であること$/</target>
+      </trans-unit>
+      <trans-unit id="the-field-in-form-should-be-not-blank">
+        <source>/^the '([^']*)' field in form '([^']*)' should be not blank$/</source>
+        <target>/^"([^"]*)"\("([^"]*)"フォーム\)の値が空でないこと$/</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
